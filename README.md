@@ -9,7 +9,7 @@
 
 
 If you would like to test the app out, feel free to check it out on [Appetize](https://appetize.io/app/zt5wb6e9qpu47ejk7k1ezqzv2c?device=iphonex&scale=75&orientation=portrait&osVersion=12.1&deviceColor=black) 
-* **Note Please do NOT import a wallet on Appetize.**
+* *Note: Importing a wallet has been disabled on Appetize for security*
 
 ---
 
