@@ -10,7 +10,7 @@ A sample iOS app to demonstrate a practical use-case of geolocation feature extr
 
 
 To test the app and interact with a deployed non-confidential version of the smart contract: [Appetize](https://appetize.io/app/zt5wb6e9qpu47ejk7k1ezqzv2c?device=iphonex&scale=75&orientation=portrait&osVersion=12.1&deviceColor=black) 
-* *Note: Importing a wallet has been disabled on Appetize. As a result, you can only view Participants.*
+* *Note: Importing a wallet has been disabled on Appetize for security and privacy reasons. As a result, you can only create a wallet with zero DEV balance, and thus only view a list of existing Participants.*
 
 ---
 
