@@ -12,7 +12,7 @@
 A sample iOS dApp that demonstrates a practical use-case in biomedical research: *sharing location data* by interacting with a [smart contract](https://github.com/HD2i/GeolocationSmartContract) via [web3swift](https://github.com/matterinc/web3swift) deployed on the [Oasis Devnet](https://docs.oasiscloud.io/en/latest/). 
 
 ---
-  * [About] (#about)
+  * [About](#about)
   * [Requirements](#requirements)
   * [Installation](#installation)
     + [CocoaPods](#cocoapods)
