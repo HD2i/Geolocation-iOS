@@ -60,7 +60,7 @@ $ pod install
 ```
 
 ## Usage
-For the purposes of this demo, both an [instance](https://github.com/HD2i/GeolocationSmartContract) of the confidential smart contract and non-confidential smart contract were deployed on the Oasis DevNet. As web3c is not currently supported by web3swift, the app only interacts with the non-confidential contract. While the non-confidential implementation is sufficient for the purposes of a working demonstration, it should be stressed that the current non-confidential implementation does not ensure privacy.  
+For the purposes of this demo, both an [instance](https://github.com/HD2i/GeolocationSmartContract) of the confidential smart contract and non-confidential smart contract were deployed on the Oasis DevNet. As web3c is not currently supported by web3swift, the app only interacts with the non-confidential contract. **While the non-confidential implementation is sufficient for the purposes of a working demonstration, it should be stressed that the current non-confidential implementation does not ensure privacy.**  
 
 
 ### Wallet Creation
