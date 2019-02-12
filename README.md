@@ -27,9 +27,14 @@ A sample iOS dApp that demonstrates a practical use-case in biomedical research:
 ---
 
 ## About
-This sample app demonstrates how a research study participant ("Participant") could share useful features of their geolocation data with a research team ("Third Party"), without revealing their raw geocoordinates. In this app, third parties would be able to determine if and when participants have visited particular locations of interest (i.e. Hospital, Pharmacy, or Gym).   
 
-For the purpose of demonstrating functionalities of both roles (participants and third parties), this app allows you to function as either role by simply switching tabs to change roles. However, in an actual implementation of this app the user would only have access to the functionalities of their role. 
+This sample app demonstrates how a research study participant ("Participant") could share useful features of their geolocation data with a research team ("Third Party"), without revealing their raw geocoordinates. Third parties would be able to determine if and when participants have visited particular locations of interest (i.e. Hospital, Pharmacy, or Gym).   
+
+<p align="center">
+  <img src="WorkflowDiagram.png" width="400" height="200" />
+</p>
+
+For the purpose of demonstrating functionalities of both roles (participants and third parties), this app allows you to function as either role by simply switching tabs to change roles. However, in a real-world implementation of this app the user would only have access to the functionalities of their role. 
 
 
 [Appetize](https://appetize.io/app/zt5wb6e9qpu47ejk7k1ezqzv2c?device=iphonex&scale=75&orientation=portrait&osVersion=12.1&deviceColor=black) : Test the app and interact with a deployed non-confidential version of the smart contract from your web browser. 
