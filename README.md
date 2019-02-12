@@ -6,7 +6,7 @@
 [![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
 ![web3](https://img.shields.io/badge/web3-support-blue.svg?style=flat)
 ![](https://img.shields.io/badge/platform-iOS-lightgray.svg?style=flat)
-![appetize](https://img.shields.io/badge/App_Demo-appetize-brightgreen.svg?style=flat)
+[![appetize](https://img.shields.io/badge/App_Demo-appetize-brightgreen.svg?style=flat)](https://appetize.io/app/zt5wb6e9qpu47ejk7k1ezqzv2c?device=iphonex&scale=75&orientation=portrait&osVersion=12.1&deviceColor=black)
 
 
 A sample iOS dApp that demonstrates a practical use-case in biomedical research: *sharing location data* by interacting with a [smart contract](https://github.com/HD2i/GeolocationSmartContract) via [web3swift](https://github.com/matterinc/web3swift) deployed on the [Oasis Devnet](https://docs.oasiscloud.io/en/latest/). 
