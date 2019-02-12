@@ -33,7 +33,7 @@ For the purpose of demonstrating functionalities of both roles (participants and
 
 
 [Appetize](https://appetize.io/app/zt5wb6e9qpu47ejk7k1ezqzv2c?device=iphonex&scale=75&orientation=portrait&osVersion=12.1&deviceColor=black) : Test the app and interact with a deployed non-confidential version of the smart contract from your web browser. 
-*Note: Some buttons and features have been disabled on Appetize for security and privacy precautions.*
+*Note: Some buttons and features have been disabled on Appetize as security and privacy precautions.*
 
 ## Requirements
 
