@@ -17,7 +17,7 @@ A sample iOS dApp that demonstrates a practical use-case in biomedical research:
   * [Installation](#installation)
     + [CocoaPods](#cocoapods)
   * [Usage](#usage)
-    + [Create/Import Wallet](#create/import-wallet)
+    + [Wallet Creation](#wallet-creation)
     + [Funding the Wallet](#funding-the-wallet)
     + [Participant Tab](#participant-tab)
     + [Third Party Tab](#third-party-tab)
@@ -63,7 +63,7 @@ $ pod install
 For the purposes of this demo, both an [instance](https://github.com/HD2i/GeolocationSmartContract) of the confidential smart contract and non-confidential smart contract were deployed on the Oasis DevNet. As web3c is not currently supported by web3swift, the app only interacts with the non-confidential contract. While the non-confidential implementation is sufficient for the purposes of a working demonstration, it should be stressed that the current non-confidential implementation does not ensure privacy.  
 
 
-### Create/Import Wallet
+### Wallet Creation
 Upon application launch, you will be presented with two options: creating or importing a new wallet. When creating or importing an existing wallet, you will be prompted to enter a user-generated password. This password is later used to access the wallet's private key and post new data to the smart contract. Once a wallet is either created or imported, you will be presented with a Tab view, consisting of three tabs: *Third Party, Participant,* and *Wallet*. 
 
 ### Funding the Wallet
