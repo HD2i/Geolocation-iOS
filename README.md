@@ -22,6 +22,7 @@ A sample iOS dApp that demonstrates a practical use-case in biomedical research:
     + [Participant Tab](#participant-tab)
     + [Third Party Tab](#third-party-tab)
   * [FAQ](#faq)
+  * [Future Improvements](#future-improvements)
   * [License](#license)
 
 ---
@@ -103,6 +104,17 @@ Other than updating the app to match the needs of the new contract, within the `
 
 Make sure to note which network you've deployed your smart contract to (i.e. main net, Ropsten, Kovan, Rinkeby). Within Web3swiftService, update the web3instance variable to the correct web3 instance for example, if using Infura's mainnet provider: `Web3.InfuraMainnetWeb3()`. Update the block explorer url to an Etheruem block explorer for your chosen network, such as Etherscan. Within the `GeolocationContract.swift` file, replace the `contractAddress` and `geoABI` string with your contract address and ABI.
 
+## Future Improvements
+In an attempt to make the DApp as simple as possible, while still accomplishing the goal of geolocation feature extraction, several concessions were made in the design of both the smart contract and iOS app that leave room for improvement.
+
+### Passive Data Sharing
+One of the more obvious areas of improvement, would be in terms of usability. It would be beneficial to allow the Participant the option to passively post location data in the background with a certain frequency and not be burdened with the task of actively requiring to tap a button whenever they wish to post their location. The user interaction would benefit if the data returned from the smart contract were stored as a local copy to the device, especially as the number of users and the number of their locations grow. Similarly, providing a method of exporting the data would also undoubtedly offer benefit to users.
+
+### Access Control  
+Another potential improvement could be to add an additional mapping of Third Party address to the Participant ID whose data they have accessed; this would enable a Participant to see the addresses of the Third Parties have accessed their data. Additionally, another mapping of Third Party addresses to identifying names could be added to the smart contract in the event that they do not need to remain pseudo-anonymous or if Participants wish to know who was accessing their data. An additional feature could also be introduced to allow Participants the ability to enable and disable the sharing of specific locations they have previously posted and could potentially be given the ability to ‘whitelist’ or ‘blacklist’ Third Parties from their data.
+
+### Expanded Data Features 
+This DApp provides a basic example of extracting a semantic descriptor, such as the location category, from the location data. However, one could easily envision more advanced feature extraction of such geolocation data. Statistical descriptors, such as the total distance traveled in a day, variance in the number of locations visited, and the travel radius of participants could be computed by the smart contract, given that the smart contract were redesigned to store the raw coordinates of the locations.  
 
 
 ## Acknowledgements
